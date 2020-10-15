@@ -1,14 +1,15 @@
 // add this file to .gitignore
 
 module.exports = {
-        google: {
-            clientID: '616581710231-3gh4r5mnbeadi0r9h1gbvk844kbir61o.apps.googleusercontent.com',
-            clientSecret: 'y3kKg0rZlk3WhE5u-A5aHwsD'
-        },
-        mongodb: {
-            dbURI: 'mongodb://iamshaunjp:test@ds151024.mlab.com:51024/oauth-test'
-        },
-        session: {
-            cookieKey: 'thenetninjaisawesomeiguess'
-        }
+  github: {
+    clientID: "6d72bb7e5796b5ee2ad2",
+    clientSecret: "fb18c3601ff494943dbd97d21f9221a9f2aec603",
+  },
+  mongodb: {
+    dbURI: "mongodb://localhost:27017/myproject",
+    // "mongodb+srv://user:12345@cluster0.70k9n.gcp.mongodb.net/oauthapp?retryWrites=true&w=majority",
+  },
+  session: {
+    cookieKey: "AdhishMalviya",
+  },
 };
